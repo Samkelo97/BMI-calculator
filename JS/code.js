@@ -22,6 +22,7 @@ calculateButton.addEventListener("click", ()=>{
         statement.innerText = "healthy🐎";
 
     }else if((BMI >= 25) && (BMI <= 29.9 )){
+
         statement.innerText = "You are overweight😩";
     }else{
         statement.innerText = "You are obese😢";

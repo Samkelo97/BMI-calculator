@@ -5,17 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
-    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>BMI converter</title>
 </head>
 <body>
-    <div class="BMI" id="screens">
+    <h3 class="animate__animated animate__fadeInDownBig animate__delay-2s"> BMI Calculator</h3>
+    <div class="animate__animated animate__fadeInLeft animate__delay-3s" id="screens">
         <p>Height</p>
         <input class="height" id="screen1" type="text" placeholder="your height in cm">
         <p>weight</p>
         <input class="weight" id="screen2" type="text" placeholder="your weight in kg"><br>
         <button class="calculate"> Calculate</button>
-        <button onclick="del('')">clear</button>
-    <h3 class="result" id="info1"></h3>
+        <button class="delete" onclick="del('')">clear</button>
+    <h4 class="result" id="info1"></h4>
     <p class="result-statement" id="info2"></p>
 </div>
     <script src="./JS/code.js"></script>

@@ -1,4 +1,4 @@
-.BMI{
+#screens{
     justify-content: center;
     align-items: center;
     background-color:black;
@@ -7,22 +7,43 @@
     text-align: center;
     border:solid 2px purple;
     margin: auto;
-    margin-top: auto;
-    box-shadow: 2px 1px 2px 1px purple;
+    box-shadow: 2px 1px 2px 1px limegreen;
     color: white;
 
     margin-top: 45px;
 }
-.kilos{
-    border: double 2px purple;
-    box-shadow: 2px 1px 2px white;
+.weight{
+    border: double 4px purple;
+    box-shadow: 2px 1px 2px limegreen;
 }
-.meters{
+.height{
     border:double 2px purple;
+    box-shadow: 2px 1px 2px limegreen;
 }
 .calculate{
     width: 70px;
     height: 20px;
     margin: 10px;
     background-color: purple;
+    color: white;
+    box-shadow: 1px 2px 1px white;
+}
+.delete{
+    background-color: purple;
+    color: white;
+    box-shadow: 1px 2px 1px white;
+}
+.calculate:hover{
+    background-color: limegreen;
+    box-shadow:1px 2px 1px limegreen ;
+}
+.delete:hover{
+ background-color: limegreen;
+ box-shadow: 1px 2px 1px limegreen;
+}
+h3{
+    text-align: center;
+    color: purple;
+
+    box-shadow: 2px 1px 3px 1px limegreen;
 }
